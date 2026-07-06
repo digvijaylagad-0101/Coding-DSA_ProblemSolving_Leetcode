@@ -14,7 +14,7 @@ public:
                 val += weights[pos];
             }
             int rem = val % 26;
-            ans += ('z' - rem);
+            ans += ('z'- rem);
         }
 
         return ans;
