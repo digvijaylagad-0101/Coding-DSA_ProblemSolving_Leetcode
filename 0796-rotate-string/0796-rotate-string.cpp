@@ -5,7 +5,7 @@ public:
 
         int n = s.length();
 
-        if(n != goal.length()) 
+        if(n != goal.length())
             return false;
         
         for(int i=0;i < n;i++) {
