@@ -4,19 +4,19 @@ public:
     int removeCoveredIntervals(vector<vector<int>>&intervals) {
 
         int n = intervals.size();
-        vector<bool> cover(n,false);
-        int cnt = 0;
+        vector<bool> covered(n,false);
+        int cnt =0;
 
         for(int i=0;i < n;i++) {
 
             for(int j=0;j < n;j++) {
 
-                if(i == j)
-                    continue;
+                if(i == j) 
+                   continue;
                 
                 if(intervals[i][0] >= intervals[j][0] && intervals[i][1] <= intervals[j][1]) {
 
-                    cover[i] = true;
+                    covered[i] = true;
                     break;
                 }
             }
@@ -24,7 +24,7 @@ public:
 
         for(int i=0;i < n;i++) {
 
-            if(!cover[i]) {
+            if(!covered[i]) {
 
                 cnt++;
             }
