@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 ## Array
 |  |
@@ -27,4 +28,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1288-remove-covered-intervals](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/1288-remove-covered-intervals) |
+## Number Theory
+|  |
+| ------- |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/3658-gcd-of-odd-and-even-sums) |
 <!---LeetCode Topics End-->
