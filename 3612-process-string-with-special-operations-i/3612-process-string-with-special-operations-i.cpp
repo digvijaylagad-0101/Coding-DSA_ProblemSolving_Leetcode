@@ -1,7 +1,8 @@
 class Solution {
+
 public:
     string processStr(string s) {
-        
+
         int len = s.length();
         string ans = "";
 
@@ -10,6 +11,7 @@ public:
             if(s[i] == '*') {
 
                 int n = ans.length();
+
                 ans = ans.substr(0,n-1);
             }
             else if(s[i] == '#') {
