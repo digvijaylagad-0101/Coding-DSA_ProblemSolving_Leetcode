@@ -4,18 +4,18 @@ public:
     vector<int> sequentialDigits(int low,int high) {
 
         string s = "123456789";
-        string out = "";
         vector<int> ans;
         int val = 0;
+        string out = "";
 
         for(int len = 2;len <= s.length();len++) {
 
-            for(int i=0;i <= s.length() - len;i++) {
+            for(int idx = 0;idx <= s.length() - len;idx++) {
 
-                string out = s.substr(i,len);
+                out = s.substr(idx,len);
                 val = stoi(out);
 
-                if(val >= low && val <= high) {
+                if(low <= val && high >= val) {
 
                     ans.push_back(val);
                 }
