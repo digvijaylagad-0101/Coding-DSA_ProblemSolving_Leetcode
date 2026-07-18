@@ -1,9 +1,10 @@
 class Solution {
+
 public:
-    bool isGood(vector<int>& nums) {
-        
+    bool isGood(vector<int>&nums) {
+
         int n = nums.size();
-        map<int,int>mpp;
+        map<int,int> mpp;
 
         for(auto it : nums) {
 
@@ -17,8 +18,7 @@ public:
 
             cnt++;
             if(it.first != cnt)
-               return false;
-
+                return false;
 
             if(it.second == 1 && cnt != n2) {
 
@@ -34,9 +34,9 @@ public:
             }
         }
 
-        if((cnt2 == n2-1 || cnt2 == 0) && cnt3 == 1)
-            return true;
+        if(cnt2 == n2-1 && cnt3 == 1)
+           return true;
         else 
-            return false;
+           return false;
     }
 };
