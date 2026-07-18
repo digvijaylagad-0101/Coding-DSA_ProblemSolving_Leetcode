@@ -1,6 +1,7 @@
 class Solution {
+
 public:
-    int minimumDistance(vector<int>& nums) {
+    int minimumDistance(vector<int>&nums) {
 
         int n = nums.size();
         unordered_map<int,vector<int>> mpp;
@@ -18,7 +19,7 @@ public:
             if(size >= 3) {
 
                 for(int i=0;i <= size-3;i++) {
-
+                    
                     int val = 0;
 
                     val += abs(it.second[i] - it.second[i+1]);
