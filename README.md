@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0389-find-the-difference](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/0389-find-the-difference) |
 | [0796-rotate-string](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/0796-rotate-string) |
 | [2062-count-vowel-substrings-of-a-string](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/2062-count-vowel-substrings-of-a-string) |
+| [2381-shifting-letters-ii](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/2381-shifting-letters-ii) |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/2839-check-if-strings-can-be-made-equal-with-operations-i) |
 | [3612-process-string-with-special-operations-i](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/3612-process-string-with-special-operations-i) |
 ## Math
@@ -27,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1331-rank-transform-of-an-array](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/2078-two-furthest-houses-with-different-colors) |
+| [2381-shifting-letters-ii](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/2381-shifting-letters-ii) |
 | [2784-check-if-array-is-good](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/2784-check-if-array-is-good) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
@@ -80,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/0238-product-of-array-except-self) |
+| [2381-shifting-letters-ii](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/2381-shifting-letters-ii) |
 ## Matrix
 |  |
 | ------- |
