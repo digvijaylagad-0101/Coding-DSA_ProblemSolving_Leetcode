@@ -25,19 +25,20 @@ public:
 
             //imp
             diff[l] += x;
+
             if((r+1) < n) {
 
                 diff[r+1] -= x;
             }
         }
 
-        // cumulative sum for final change of how much and at which index
+        // cumulative sum for how much to shift for particular index
         for(int i=1;i < n;i++) {
 
             diff[i] += diff[i-1];
         }
 
-        // final change
+        // final shift 
         for(int i=0;i < n;i++) {
 
             int shift = diff[i] % 26;
@@ -51,5 +52,5 @@ public:
         }
 
         return s;
-    }
+    } 
 };
