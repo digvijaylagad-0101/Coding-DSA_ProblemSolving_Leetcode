@@ -32,13 +32,13 @@ public:
             }
         }
 
-        // cumulative sum for how much to shift for particular index
+        // cumulative sum of diff , for finding shift related to each character
         for(int i=1;i < n;i++) {
 
             diff[i] += diff[i-1];
         }
 
-        // final shift 
+        // final string after change
         for(int i=0;i < n;i++) {
 
             int shift = diff[i] % 26;
@@ -52,5 +52,5 @@ public:
         }
 
         return s;
-    } 
+    }  
 };
