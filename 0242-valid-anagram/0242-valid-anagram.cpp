@@ -13,17 +13,16 @@ public:
             umpp[ch]++;
         }
 
-        for(char it : t) {
+        for(char ch : t) {
 
-            if(!umpp.count(it))
-                return false;
+            if(!umpp.count(ch))
+               return false;
             
-            umpp[it]--;
+            umpp[ch]--;
 
-            if(umpp[it] == 0) {
-
-                umpp.erase(it);
-            }
+            if(umpp[ch] == 0)  
+               
+               umpp.erase(ch);
         }
 
         return umpp.empty();
