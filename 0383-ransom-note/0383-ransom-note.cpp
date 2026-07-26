@@ -1,28 +1,24 @@
 class Solution {
+
 public:
     bool canConstruct(string ransomNote, string magazine) {
-        
-        unordered_map<char,int> umpp;
-        int cnt = 0;
-        int n = ransomNote.size();
 
-        for(char ch : ransomNote) {
+        vector<int> v(26,0);
 
-            umpp[ch]++;
+        for(char ch : magazine) {
+
+            v[ch - 'a']++;
         }
 
-        for(char ch : ransomNote) {
+        for(char sh : ransomNote) {
 
-            if(umpp[ch] <= count(magazine.begin(),magazine.end(),ch)) {
+            v[sh - 'a']--;
 
-                cnt++;
-            }
-            else {
-
-                return false;
-            }
+            if(v[sh - 'a'] < 0)
+               
+               return false;
         }
 
-        return (cnt == n ? true : false);
+        return true;
     }
 };
