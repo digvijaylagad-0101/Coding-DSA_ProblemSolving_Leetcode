@@ -15,8 +15,8 @@ public:
             v[sh - 'a']--;
 
             if(v[sh - 'a'] < 0)
-               
-               return false;
+              
+              return false;
         }
 
         return true;
