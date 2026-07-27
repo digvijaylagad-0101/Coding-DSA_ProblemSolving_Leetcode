@@ -1,7 +1,7 @@
 class Solution {
 
 public:
-    bool canConstruct(string ransomNote, string magazine) {
+    bool canConstruct(string ransomNote,string magazine) {
 
         vector<int> v(26,0);
 
@@ -15,8 +15,8 @@ public:
             v[sh - 'a']--;
 
             if(v[sh - 'a'] < 0)
-              
-              return false;
+               
+               return false;
         }
 
         return true;
