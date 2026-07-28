@@ -4,16 +4,16 @@ public:
         
         int n = nums.size();
         int max = 0,prevMax = 0;
-        
-        if(nums[0] > nums[1]) {
 
-            max = nums[0];
-            prevMax = nums[1];
-        }
-        else {
+        if(nums[1] > nums[0]) {
 
             max = nums[1];
             prevMax = nums[0];
+        }
+        else {
+
+            max = nums[0];
+            prevMax = nums[1];
         }
 
         for(int i=2;i < n;i++) {
@@ -27,12 +27,8 @@ public:
 
                 prevMax = nums[i];
             }
-            else {
-
-                continue;
-            }
         }
 
-        return (max - 1)*(prevMax - 1);
+        return (max - 1) * (prevMax - 1);
     }
 };
