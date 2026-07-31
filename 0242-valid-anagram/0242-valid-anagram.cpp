@@ -6,25 +6,22 @@ public:
         if(s.length() != t.length())
             return false;
         
-        unordered_map<char,int> umpp;
+        vector<int> ans(26,0);
 
         for(char ch : s) {
 
-            umpp[ch]++;
+            ans[ch - 'a']++;
         }
 
         for(char ch : t) {
 
-            if(!umpp.count(ch))
-               return false;
-            
-            umpp[ch]--;
+            ans[ch - 'a']--;
 
-            if(umpp[ch] == 0)  
+            if(ans[ch - 'a'] < 0)
                
-               umpp.erase(ch);
+               return false;
         }
 
-        return umpp.empty();
+        return true;
     }
 };
