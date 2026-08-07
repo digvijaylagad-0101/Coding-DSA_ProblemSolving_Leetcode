@@ -1,7 +1,8 @@
 class Solution {
+
 public:
-    vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
-        
+    vector<int> smallerNumbersThanCurrent(vector<int>&nums) {
+
         int n = nums.size();
         vector<int> cp = nums;
         sort(cp.begin(),cp.end());
@@ -21,7 +22,6 @@ public:
 
                 mp[cp[i]] = cnt;
             }
-
             cnt++;
         }
 
