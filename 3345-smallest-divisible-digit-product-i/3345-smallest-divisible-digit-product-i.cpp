@@ -5,9 +5,10 @@ public:
         int ans = 0;
 
         while(n >= 1 && n <= 100) {
-            
+
             int product = 1;
             int num = n;
+
             while(num != 0) {
 
                 int rem = num % 10;
