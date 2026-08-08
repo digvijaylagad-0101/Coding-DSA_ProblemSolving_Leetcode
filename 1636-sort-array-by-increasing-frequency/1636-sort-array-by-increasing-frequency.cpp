@@ -1,30 +1,30 @@
 class Solution {
-public:
-    vector<int> frequencySort(vector<int>& nums) {
 
-        int n = nums.size();
-        unordered_map<int,int> umpp1;
-        map<int,vector<int>> umpp2;
+public:
+    vector<int> frequencySort(vector<int>&nums) {
+
+        unordered_map<int,int> umpp;
+        map<int,vector<int>> mp;
         vector<int> ans;
 
         for(int x : nums) {
 
-            umpp1[x]++;
+            umpp[x]++;
+        }
+        
+        for(auto it : umpp) {
+
+            mp[it.second].push_back(it.first);
         }
 
-        for(auto it : umpp1) {
+        for(auto it : mp) {
 
-            umpp2[it.second].push_back(it.first);
-        }
-
-        for(auto it : umpp2) {
-            
-            sort(it.second.begin(),it.second.end());
             int size = it.second.size();
+            sort(it.second.begin(),it.second.end());
 
-            for(int i = size - 1; i >= 0; i--) {
+            for(int i = size-1;i >= 0;i--) {
 
-                ans.insert(ans.end(), it.first, it.second[i]);
+                ans.insert(ans.end(),it.first,it.second[i]);
             }
         }
 
