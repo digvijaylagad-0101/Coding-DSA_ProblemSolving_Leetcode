@@ -4,10 +4,10 @@ public:
         
         string s = to_string(n);
         typedef long long ll;
-        ll m = s.length();
+        ll len = s.length();
         string str = "";
 
-        for(int i=0;i < m;i++) {
+        for(int i=0;i < len;i++) {
 
             if(s[i] != '0') {
 
@@ -15,7 +15,7 @@ public:
             }
         }
 
-        ll val = stoll(str);
+        long long val = stoll(str);
 
         return val;
     }
