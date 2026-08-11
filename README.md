@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2078-two-furthest-houses-with-different-colors](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2381-shifting-letters-ii](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/2381-shifting-letters-ii) |
 | [2784-check-if-array-is-good](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/2784-check-if-array-is-good) |
+| [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3731-find-missing-elements](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/3731-find-missing-elements) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/1636-sort-array-by-increasing-frequency) |
 | [2784-check-if-array-is-good](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/2784-check-if-array-is-good) |
+| [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3536-maximum-product-of-two-digits](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/3536-maximum-product-of-two-digits) |
 | [3731-find-missing-elements](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/3731-find-missing-elements) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -123,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [2062-count-vowel-substrings-of-a-string](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/2062-count-vowel-substrings-of-a-string) |
 | [2784-check-if-array-is-good](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/2784-check-if-array-is-good) |
+| [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3731-find-missing-elements](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/3731-find-missing-elements) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
