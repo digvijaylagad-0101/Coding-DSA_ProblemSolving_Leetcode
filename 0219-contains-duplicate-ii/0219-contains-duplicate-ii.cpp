@@ -16,7 +16,8 @@ public:
                 for(int i=1;i < it.second.size();i++) {
 
                     int diff = abs(it.second[i] - it.second[i-1]);
-                    if(diff <= k)
+
+                    if(diff <= k) 
                        
                        return true;
                 }
