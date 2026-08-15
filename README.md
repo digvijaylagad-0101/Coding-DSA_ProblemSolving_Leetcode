@@ -256,4 +256,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0202-happy-number](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/0202-happy-number) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
