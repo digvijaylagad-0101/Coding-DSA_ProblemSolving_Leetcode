@@ -1,6 +1,7 @@
 class Solution {
+
 public:
-    vector<char> reverseString(vector<char>& s) {
+    vector<char> reverseString(vector<char>&s) {
 
         int n = s.size();
         char ch = '\0';
