@@ -28,7 +28,7 @@ public:
                 l = mid+1;
             }
         }
-        
+
         ans.push_back(valMin);
 
         //right half
