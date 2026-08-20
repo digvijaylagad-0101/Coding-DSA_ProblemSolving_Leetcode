@@ -10,12 +10,12 @@ public:
 
             s.insert(candyType[i]);
         }
-        
+
         int total = s.size();
 
         if(number >= total)
            return total;
-        else 
+        else
            return number;
     }
 };
