@@ -3,43 +3,37 @@ class Solution {
 public:
     string shiftingLetters(string s,vector<vector<int>>&shifts) {
 
-        int n = s.length();
-
-        vector<int> diff(n,0);
+        int len = s.length();
+        int n = shifts.size();
+        vector<int> diff(len,0);
 
         for(auto it : shifts) {
 
             int l = it[0];
             int r = it[1];
             int val = it[2];
-            int x = 0;
+            int x = 1;
 
             if(val == 0) {
 
-                x -= 1;
-            }
-            else {
-
-                x += 1;
+                x = -1;
             }
 
-            //imp
             diff[l] += x;
 
-            if((r+1) < n) {
+            if((r+1) < len) {
 
                 diff[r+1] -= x;
             }
         }
 
-        // cumulative sum of diff , for finding shift related to each character
-        for(int i=1;i < n;i++) {
+        // take cumulative sum of diff for final shift of how much
+        for(int i=1;i < len;i++) {
 
             diff[i] += diff[i-1];
         }
 
-        // final string after change
-        for(int i=0;i < n;i++) {
+        for(int i=0;i < len;i++) {
 
             int shift = diff[i] % 26;
 
@@ -52,5 +46,5 @@ public:
         }
 
         return s;
-    }  
+    }
 };
