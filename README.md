@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0389-find-the-difference](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/0389-find-the-difference) |
 | [0451-sort-characters-by-frequency](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0796-rotate-string](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/0796-rotate-string) |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1903-largest-odd-number-in-string](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/1903-largest-odd-number-in-string) |
@@ -288,5 +289,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [2390-removing-stars-from-a-string](https://github.com/digvijaylagad-0101/Coding-DSA_ProblemSolving_Leetcode/tree/master/2390-removing-stars-from-a-string) |
 <!---LeetCode Topics End-->
