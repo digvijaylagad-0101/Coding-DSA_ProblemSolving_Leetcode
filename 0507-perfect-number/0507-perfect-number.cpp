@@ -2,11 +2,11 @@ class Solution {
 public:
     bool checkPerfectNumber(int num) {
 
-        int n = num / 2;
+        int n = num/2;
         int ans = 0;
 
         for(int i=1;i <= n;i++) {
-            
+
             if(num % i == 0) {
 
                 ans += i;
@@ -14,8 +14,8 @@ public:
         }
 
         if(ans == num)
-            return true;
+           return true;
         else
-            return false;
+           return false;
     }
 };
