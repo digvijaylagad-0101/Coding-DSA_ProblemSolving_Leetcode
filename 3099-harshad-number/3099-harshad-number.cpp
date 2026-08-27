@@ -1,7 +1,7 @@
 class Solution {
 public:
     int sumOfTheDigitsOfHarshadNumber(int x) {
-        
+
         int num = x;
         int sum = 0;
 
