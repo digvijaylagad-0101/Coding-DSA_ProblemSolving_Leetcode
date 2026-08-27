@@ -3,18 +3,22 @@ public:
     int singleNumber(vector<int>& nums) {
 
         unordered_map<int,int> umpp;
-        vector<int> cp = nums;
+        int ans = 0;
 
         for(int it : nums) {
 
             umpp[it]++;
+        }
 
-            if(umpp[it] == 2) {
-                
-                cp.erase(remove(cp.begin(),cp.end(),it),cp.end());
+        for(auto it : umpp) {
+
+            if(it.second == 1) {
+
+                ans = it.first;
+                break;
             }
         }
 
-        return cp[0];
+        return ans;
     }
 };
