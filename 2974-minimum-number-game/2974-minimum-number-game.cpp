@@ -5,7 +5,7 @@ public:
 
         vector<int> arr;
         sort(nums.begin(),nums.end());
-        int i=1;
+        int i = 1;
 
         while(i < nums.size()) {
 
