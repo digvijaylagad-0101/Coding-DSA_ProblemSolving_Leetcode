@@ -12,7 +12,7 @@ public:
             arr.push_back(nums[i]);
             arr.push_back(nums[i-1]);
 
-            i = i + 2;
+            i += 2;
         }
 
         return arr;
