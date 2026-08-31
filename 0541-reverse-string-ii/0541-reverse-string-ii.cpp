@@ -8,10 +8,11 @@ public:
 
         while(i < len) {
 
-            string str = s.substr(i,k);
-            reverse(str.begin(),str.end());
-            ans += str;
+            string rev = s.substr(i,k);
+            reverse(rev.begin(),rev.end());
+            ans += rev;
             i = i+k;
+
             if(i < len) {
 
                 ans += s.substr(i,k);
