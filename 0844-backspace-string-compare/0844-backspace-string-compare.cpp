@@ -1,6 +1,7 @@
 class Solution {
+
 public:
-    bool backspaceCompare(string s, string t) {
+    bool backspaceCompare(string s,string t) {
 
         stack<char> st1;
         stack<char> st2;
