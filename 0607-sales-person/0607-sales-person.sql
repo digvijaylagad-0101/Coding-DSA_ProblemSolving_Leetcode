@@ -1,7 +1,7 @@
 select s.name as name
-from SalesPerson as s
+from SalesPerson s
 where s.sales_id not in (select o.sales_id
-                         from Orders as o
-                         inner join Company as c
-                         on c.com_id = o.com_id
+                         from Orders o
+                         inner join Company c
+                         on o.com_id = c.com_id
                          where c.name = 'RED');
