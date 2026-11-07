@@ -8,7 +8,7 @@ public:
 
         for(int i=n-2;i >= 0;i--) {
 
-            int diff = abs(nums[n-1] - nums[i]);
+            int diff = nums[n-1] - nums[i];
             ans += diff;
         }
 
