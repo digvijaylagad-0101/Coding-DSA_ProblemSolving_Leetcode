@@ -28,6 +28,6 @@ GROUP BY r.customer_id
 HAVING COUNT(r.customer_id) >= 3
    AND MAX(p.cnt) * 100.0 / COUNT(r.customer_id) >= 60
    AND AVG(r.order_rating) >= 4.0
-   AND COUNT(r.order_rating) * 100.0 / COUNT(r.customer_id) >= 50
+   AND coalesce(COUNT(r.order_rating),0) * 100.0 / COUNT(r.customer_id) >= 50
 
 ORDER BY average_rating DESC, r.customer_id DESC;
