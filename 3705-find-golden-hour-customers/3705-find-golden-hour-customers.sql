@@ -13,7 +13,7 @@ SELECT
     COUNT(r.customer_id) AS total_orders,
 
     ROUND(
-        MAX(p.cnt) * 100.0 / COUNT(r.customer_id),
+        p.cnt * 100.0 / COUNT(r.customer_id),
         0
     ) AS peak_hour_percentage,
 
