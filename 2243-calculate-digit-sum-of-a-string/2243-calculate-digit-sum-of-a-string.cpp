@@ -1,4 +1,3 @@
-
 class Solution {
 
 public:
@@ -7,34 +6,35 @@ public:
         string str = s;
 
         while(str.size() > k) {
-            
+
             string st = "";
+            int n = str.size();
 
-            for(int i = 0; i < str.size(); i++) {
+            for(int i=0;i < n;i++) {
 
-                if(i + k <= str.size()) {
+                if(i+k < n) {
 
-                    string cpy = str.substr(i, k);
+                    string cpy = str.substr(i,k);
                     int num = 0;
+                    for(int j=0;j < k;j++) {
 
-                    for(int j = 0; j < cpy.size(); j++) {
+                        num += cpy[j] - '0';
+                    }
+                    
+                    st += to_string(num);
+                    i = i+k - 1;
+                }
+                else {
+
+                    string cpy = str.substr(i,n-i);
+                    int num = 0;
+                    for(int j=0;j < cpy.size();j++) {
+
                         num += cpy[j] - '0';
                     }
 
                     st += to_string(num);
-                    i = i + k - 1;
-                }
-                else {
-
-                    string cpy1 = str.substr(i, str.size() - i);
-                    int val = 0;
-
-                    for(int j = 0; j < cpy1.size(); j++) {
-                        val += cpy1[j] - '0';
-                    }
-
-                    st += to_string(val);
-                    i = str.size();
+                    i = n;
                 }
             }
 
